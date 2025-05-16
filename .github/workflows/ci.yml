@@ -45,4 +45,4 @@ jobs:
         run: docker build -t mariuccia99/container-lezione:$GITHUB_SHA .
 
       - name: Docker push
-        run: docker push mariuccia99/container-lezione:$GITHUB_SHA .
+        run: docker push mariuccia99/container-lezione:$GITHUB_SHA 
